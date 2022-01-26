@@ -1,19 +1,18 @@
 <template>
   <v-app>
-    <v-main>
-      <router-view />
-    </v-main>
+    <!-- <v-main> -->
+      <router-view/>
+    <!-- </v-main> -->
   </v-app>
 </template>
 
 <script>
-import "./styles/global.scss";
-
+import "./styles/global.scss"
 export default {
-  name: "App",
-  components: {},
+  name: 'App',
+
+  data: () => ({
+    //
+  }),
 };
 </script>
-
-<style>
-</style>
