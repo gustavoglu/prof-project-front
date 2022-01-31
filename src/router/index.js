@@ -1,14 +1,20 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import HomePage from '../views/HomePage/HomePage.vue';
+import FormPage from '../views/FormPage/FormPage.vue';
 
 Vue.use(VueRouter);
 
 const routes = [
   {
     path: "/",
-    name: "Home",
+    name: "Início",
     component: HomePage
+  },
+  {
+    path:"/cadastro",
+    name:"Cadastro",
+    component: FormPage
   }
 ]
 

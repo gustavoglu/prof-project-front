@@ -1,0 +1,35 @@
+.formpage-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--background);
+}
+
+.form-header {
+  background: var(--purple-500);
+
+  div {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0 1rem 4rem;
+
+    h1 {
+      font-family: Archivo;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 36px;
+      line-height: 42px;
+      color: var(--text-title);
+      padding-top: 3rem;
+    }
+
+    p {
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 26px;
+      color: var(--text-base);
+      margin-top: 1rem;
+    }
+  }
+}
